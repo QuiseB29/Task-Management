@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scales=1.0">
+    <title>Tech System</title>
+    <link rel="stylesheet" href="File.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/coding-logo-design-template-vector.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="Homepage.">HOME</a></li>
+                    <li><a href="Dashboard.html">DASHBOARD</a></li>
+                    <li><a href="Creation.html">CREATION</a></li>
+                    <li><a href="Registration.html">REGISTER</a></li>
+                    <li><a href="Authentication.html">AUTHENTICATION</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-chevron-circle-down" onclick="showMenu()"></i>
+        </nav>
+    
+      
+
+
+        <div class="text-box">
+            <h1>Technology Management </h1>
+            <p>Make technology easier and Tomorrow Better.<br> Join and achieve your POTENTIAL</p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
+    </section>
+
+<section class="course">
+    <h1>What we offer</h1>
+    <p>A Management System that help you code SPECIAL.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Education</h3>
+            <p>Top Education for those willing to learn or aleady familiar with coding.<br>
+            This application will broaden your CODING horizons.</p>
+        </div>
+        <div class="course-col">
+            <h3>Real World Problems</h3>
+            <p>Giving the tool's for real world problems in the TECH industry.<br>
+            Sharpen your skills, also KNOWLEDGE</p>
+        </div>
+        <div class="course-col">
+            <h3>Around the clock Help</h3>
+            <p>With a team a professionals working around the clock.<br>
+            Being 100% comitted and Front line for our customers<br>
+        is truly why we believe in the FUTURE for technology.</p>
+        </div>
+    </div>
+</section>
+
+<!------Locations-->
+
+<section class="location">
+    <h1>Our Local Offices</h1>
+    <p>Where located locally around YOU</p>
+
+
+    <div class="row">
+        <div class="location-col">
+            <img src="img/brittney-butler-uZnoD1xuL9A-unsplash.jpg">
+            <div class="layer">
+                <h3>ST.LOUIS</h3>
+            </div>
+        </div>
+        <div class="location-col">
+            <img src="img/farhodjon-chinberdiev--OOkAJ6Am_4-unsplash.jpg">
+            <div class="layer">
+                <h3>KANSAS CITY</h3>
+            </div>
+        </div>
+        <div class="location-col">
+            <img src="img/sawyer-bengtson-tnv84LOjes4-unsplash.jpg">
+            <div class="layer">
+                <h3>CHICAGO</h3>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!----call to action---->
+<section class="cta">
+    <h1> Take on difficult coding projects with our App<br>
+    </h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenue() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scales=1.0">
+    <title>Tech System</title>
+    <link rel="stylesheet" href="File.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/coding-logo-design-template-vector.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="Homepage.html">HOME</a></li>
+                    <li><a href="Dashboard.html">DASHBOARD</a></li>
+                    <li><a href="Creation.html">CREATION</a></li>
+                    <li><a href="Registration.html">REGISTER</a></li>
+                    <li><a href="Authentication.html">AUTHENTICATION</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-chevron-circle-down" onclick="showMenu()"></i>
+        </nav>
+       
+
+        <section>
+            <form>
+            <h2>Adding new task.</h2>
+
+            <form>
+                <label for="user-email">Email:</label>
+                <input type="email" id="user-email" name="user-email" placeholder="Enter your email" required>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" stop="1">
+
+                <label for="birthdate">Birthdate</label>
+                <input type="date" id="birthdate" name="birthdate">
+
+                <button type="submit">Submit</button>
+            </form>
+            </form>
+
+        </section>
+
+            <section class="course">
+                <h1>Details</h1>
+                <p>A Management System that help you code SPECIAL.</p>
+                <div class="row">
+                    <div class="course-col">
+                        <h3>Tell us information</h3>
+                        <p>First fill out information so we can know who you are.<br>
+                        This will give us a brief description on who you are.</p>
+                    </div>
+                    <div class="course-col">
+                        <h3>Login</h3>
+                        <p> Make a unique profile to acces top app features<br>
+                        Once verified your JOURNEY starts.</p>
+                    </div>
+                    <div class="course-col">
+                        <h3>Innovate</h3>
+                        <p>Be apart of the future as we know it <br>
+                        Learn to CODE and excel with your learning</p>
+                    </div>
+                </div>
+            </section>
+</html>
+
+        
+       
+
+<!------Locations-->
+
+
+<!----call to action---->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenue() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scales=1.0">
+    <title>Tech System</title>
+    <link rel="stylesheet" href="File.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/coding-logo-design-template-vector.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="Homepage.html">HOME</a></li>
+                    <li><a href="Dashboard.html">DASHBOARD</a></li>
+                    <li><a href="Creation.html">CREATION</a></li>
+                    <li><a href="Registration.html">REGISTER</a></li>
+                    <li><a href="Authentication.html">AUTHENTICATION</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-chevron-circle-down" onclick="showMenu()"></i>
+        </nav>
+    
+
+       <section>
+        <form>
+        <h1>User Profile Form</h1>
+        <form action="/submit" method="post">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="bio">Bio:</label>
+          <textarea id="bio" name="bio"></textarea>
+
+          <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+          <label for="subscribe">Subscribe to newsletter</label>
+
+          <label>Gender</label>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+
+          <button type="submit">Submit</button>
+
+        </form>
+
+        </form>
+        <p>Read our <a href="#">Privacy Policy</a></p>
+
+
+
+       </section>
+    </section>
+</html>
+
+<!------Locations-->
+
+
+<!----call to action---->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenue() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
